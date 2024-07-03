@@ -6,13 +6,46 @@
 .profile-header{
     position: relative;
     width: 100%;
-    max-width: 900px;
+    
+    max-width: 500px;
     margin: 0 auto ;
-    background-color: rgb(214, 203, 203);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .cover-photo img{
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
+}
+.profile-picture{
+    margin-top: -100px;
+    margin-left: 30%;
+    
+}
+.profile-picture img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 10px solid white;
+}
+.user-info{
+    text-align: center;
+}
+.about{
+    list-style: none;
+    margin: 20px;
+    text-align: left;
+    padding: 0 20px;
+    
+}
+.about li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
