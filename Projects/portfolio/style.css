@@ -19,6 +19,9 @@ header{
     margin: 0px;
     
 }
+.in{
+    color: rgb(66, 243, 56);
+}
 nav {
     float: right;
     
@@ -109,10 +112,10 @@ header::after{
 @keyframes blink-caret {
     from,
     to {
-        border-color: transparent;
+        border-color: black;
     }
     50% {
-        border-color: rgb(249, 242, 242);
+        border-color: rgb(0, 0, 0);
     }
 }
 .highlight{
